@@ -1,0 +1,99 @@
+1. Html- structure.
+2. Css - Styling purpose.
+3. JavaScript - logic, functionality.
+
+dynamicaly typed languge - the varibale type will be considred at run time.
+
+int a = 2;
+
+a = 2.3; #float - double - decimal
+boolean velue;
+
+0 = false;
+1 = true;
+a = 1
+
+typescript - microsoft
+
+a : int = 1;
+isDisbaled: boolean= true; 
+
+isTrue!:boolean;
+
+#include<stdio.h>
+
+import - import is used to import modules etc from other packages.	
+export - if we want to make import of anything it should be exported!
+
+export class ClassName{
+	a:number;
+	b:boolean;
+	constructor(){
+	}
+	
+	func1(){
+	}
+	func2(){
+	}
+}
+int main(){} in c/cpp
+
+<head></head>
+body, iframe, div, a, ... 
+
+<app-departments> custom tags made by anguar with the help of components.
+
+node,nodejs - run time for js mainly on the server side.
+node module - installed moduels. 
+	
+npm - node package manager.
+
+angular
+<app-componenet>
+component based framework.
+each component contains the html css and js which work for specific task of entire project.
+(1 + 1 = 2 in html,css = not possibe) 
+
+(1 + 1 = 2) javascript/typescript.
+
+for element of array
+	console.log(element)
+
+API - application programming interface
+
+Api handles request from the front end 
+
+API is a code, it provides url
+
+baseUrl = http://localhost:3000/semesterData
+
+I need to write code on front end.
+to request for data.
+
+return this.http.get<any>(`${this.baseUrl}`)
+
+It will send request to http://localhost:3000/semesterData => API 
+will check if the request valid or not.
+
+show data on the html/component.
+
+
+Observable = promise will always return a data.
+
+()=>{
+}
+Example:
+(data) => {
+        this.semesterData = data[semesterId].subjects;
+        console.log("Semester Data: ",this.semesterData);
+      }
+Injectable
+
+this => currrent state of obj or var.
+
+OnInit => init => do somethig when a component init.
+
+NgFor - for will iterate through any data in the html or ts component.
+NgIf - NgIf will check any data
+
+let, var, const

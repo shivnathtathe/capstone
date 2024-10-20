@@ -1,0 +1,115 @@
+<div class="container my-5">
+  <h2 class="text-center mb-4">Course File Index</h2>
+
+  <table class="table table-custom mt-4">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Particulars</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Index 1 -->
+      <tr>
+        <td>Faculty Profile</td>
+        <td>
+          <a class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index', 'faculty']">View</a>
+        </td>
+      </tr>
+
+      <!-- Index 2 -->
+      <tr>
+        <td>
+          Institute - Vision and Mission, Department - Vision and Mission, PEO, PO, PSO
+        </td>
+        <td>
+          <a class="btn btn-custom" (click)="toggleExpansion('vision')">View</a>
+        </td>
+      </tr>
+
+      <!-- Expandable Section for Vision -->
+      <tr *ngIf="expandedSection === 'vision'">
+        <td colspan="2">
+          <table class="table table-custom mt-2">
+            <tbody>
+              <tr>
+                <td>Institute Vision and Mission</td>
+                <td>
+                  <a (click)="setPdfName('institute_vision_and_mission.pdf')" class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index', 'pdf']">View</a>
+                </td>
+              </tr>
+              <tr>
+                <td>Department Vision and Mission</td>
+                <td>
+                  
+                  <a (click)="setPdfName('department_vision_and_mission.pdf')" class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index', 'pdf']">View</a>
+                </td>
+              </tr>
+              <tr>
+                <td>PEO</td>
+                <td>
+                  
+                  <a (click)="setPdfName('pso.pdf')" class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index', 'pdf']">View</a>
+                </td>
+              </tr>
+              <tr>
+                <td>PO</td>
+                <td>
+                  
+                  <a (click)="setPdfName('pso.pdf')" class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index','pdf']">View</a>
+                </td>
+              </tr>
+              <tr>
+                <td>PSO</td>
+                <td>
+                  
+                  <a (click)="setPdfName('pso.pdf')" class="btn btn-custom" [routerLink]="['/department/computer', semesterId, 'index', 'pdf']">View</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Index 3: Academic Calendar of MSBTE -->
+      <tr>
+        <td>Academic Calendar of MSBTE</td>
+        <td>
+          <a class="btn btn-custom" href="https://msbte.org.in/file/A.Y.%202024-25_AcademicCalendar_16052024_1104.pdf">View</a>
+        </td>
+      </tr>
+
+      <!-- Index 4: Academic Calendar of Institute -->
+      <tr>
+        <td>Academic Calendar of Institute</td>
+        <td>
+          <a class="btn btn-custom" (click)="toggleExpansion('academicCalendar')">View</a>
+        </td>
+      </tr>
+
+      <!-- Expandable Section for Academic Calendar -->
+      <tr *ngIf="expandedSection === 'academicCalendar'">
+        <td colspan="2">
+          <table class="table table-custom mt-2">
+            <tbody>
+              <tr>
+                <td>Institute Academic Calendar</td>
+              </tr>
+              <tr>
+                <td>Department Academic Calendar</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Index 5: MSBTE Approval Curriculum -->
+      <tr>
+        <td>MSBTE Approval Curriculum</td>
+        <td>
+          <a class="btn btn-custom" href="https://econtent.msbte.edu.in/curriculum_search/">View</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

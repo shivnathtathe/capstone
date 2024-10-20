@@ -1,0 +1,15 @@
+<div class="container my-5">
+    <h2 class="text-center">Semester {{ semesterId }} Subjects</h2> 
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-4">
+      <div class="col" *ngFor="let subject of semesterData">
+        <div class="card h-100 text-center shadow">
+          <div class="card-body">
+            <h5 class="card-title">{{ subject.title }}</h5>
+            <p class="card-text">{{ subject.description }}</p>
+            <a class="btn btn-primary" [routerLink]="['/department/computer', semesterId, 'index']">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

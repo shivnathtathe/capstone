@@ -1,0 +1,16 @@
+.card {
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #6c757d; /* Bootstrap secondary text color */
+  }
+  

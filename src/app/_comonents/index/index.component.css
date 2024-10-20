@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+  background-color: #f8f9fa; /* Light background color */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+h2 {
+  color: #343a40; /* Dark text color */
+  font-weight: bold; /* Bold heading */
+}
+
+/* Table Styles */
+.table-custom {
+  background-color: #ffffff; /* White background for the table */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 20px; /* Spacing above the table */
+}
+
+.table-custom th {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text for headers */
+  text-align: center; /* Center align header text */
+  font-weight: bold; /* Bold header text */
+}
+
+.table-custom td {
+  text-align: left; /* Left align cell text */
+  padding: 15px; /* Padding for cells */
+  vertical-align: middle; /* Vertically center content */
+}
+
+/* Button Styles */
+.btn-custom {
+  background-color: #28a745; /* Bootstrap success color */
+  border: none; /* Remove border */
+  color: white; /* White text for buttons */
+  padding: 10px 20px; /* Button padding */
+  border-radius: 5px; /* Rounded button corners */
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.btn-custom:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Row Hover Effect */
+.table-custom tbody tr:hover {
+  background-color: #e9ecef; /* Light gray background on row hover */
+  cursor: pointer; /* Pointer cursor on hover */
+}

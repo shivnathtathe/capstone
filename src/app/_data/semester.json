@@ -1,0 +1,197 @@
+{
+    "semesterData": {
+      "1": {
+        "subjects": [
+          {
+            "title": "Fundamentals of ICT",
+            "description": "Course code: ICT-311001"
+          },
+          {
+            "title": "Engineering Workshop",
+            "description": "Course code: WPC-311002"
+          },
+          {
+            "title": "Yoga and Meditation",
+            "description": "Course code: YAM-311003"
+          },
+          {
+            "title": "Engineering Graphics",
+            "description": "Course code: EPG-311008"
+          },
+          {
+            "title": "Basic Mathematics",
+            "description": "Course code: BMS-311302"
+          },
+          {
+            "title": "English Syllabus",
+            "description": "Course code: ENG-311303"
+          },
+          {
+            "title": "Basic Science",
+            "description": "Course code: BSC-311305"
+          }
+        ]
+      },
+      "2": {
+        "subjects": [
+          {
+            "title": "Linux Basic",
+            "description": "Course code: BLP-312001"
+          },
+          {
+            "title": "Professional Communication",
+            "description": "Course code: PCO-312002"
+          },
+          {
+            "title": "Social and Life Skills",
+            "description": "Course code: SFS-312003"
+          },
+          {
+            "title": "Web Page Designing",
+            "description": "Course code: WPD-312004"
+          },
+          {
+            "title": "Applied Mathematics",
+            "description": "Course code: AMS-312301"
+          },
+          {
+            "title": "Basic Electrical and Electronic",
+            "description": "Course code: BEE-312302"
+          },
+          {
+            "title": "Programming in ‘C’",
+            "description": "Course code: PIC-312303"
+          }
+        ]
+      },
+      "3": {
+        "subjects": [
+          {
+            "title": "Data Structure using ‘C’",
+            "description": "Course code: DSU-313301"
+          },
+          {
+            "title": "Database Management System",
+            "description": "Course code: DMS-313302"
+          },
+          {
+            "title": "Digital Techniques",
+            "description": "Course code: DTE-313303"
+          },
+          {
+            "title": "Computer Graphics",
+            "description": "Course code: CGR-313001"
+          },
+          {
+            "title": "Essence of the Indian Constitution",
+            "description": "Course code: EIC-313002"
+          },
+          {
+            "title": "Object-Oriented Programming using C++",
+            "description": "Course code: OOP-313304"
+          }
+        ]
+      },
+      "4": {
+        "subjects": [
+          {
+            "title": "Data Communication and Computer Network",
+            "description": "Course code: DCN-314301"
+          },
+          {
+            "title": "Environmental Education and Sustainability",
+            "description": "Course code: EES-314302"
+          },
+          {
+            "title": "Java Programming",
+            "description": "Course code: JPR-314303"
+          },
+          {
+            "title": "Operating System",
+            "description": "Course code: OSY-314304"
+          },
+          {
+            "title": "GUI Application Development using VB.NET",
+            "description": "Course code: GUI-314005"
+          },
+          {
+            "title": "Python Programming",
+            "description": "Course code: PWP-314002"
+          }
+        ]
+      },
+      "5": {
+        "subjects": [
+          {
+            "title": "Advanced Java Programming",
+            "description": "Course code: AJP-315001"
+          },
+          {
+            "title": "Software Testing",
+            "description": "Course code: STE-315335"
+          },
+          {
+            "title": "Entrepreneurship Development and Startups",
+            "description": "Course code: EDS-315302"
+          },
+          {
+            "title": "Seminar and Project Initiation Course",
+            "description": "Course code: SPI-315002"
+          },
+          {
+            "title": "Internship",
+            "description": "Course code: ITR-315001"
+          },
+          {
+            "title": "Cloud Computing",
+            "description": "Course code: CLC-315006"
+          },
+          {
+            "title": "Advanced Computer Network",
+            "description": "Course code: CAN-315304"
+          },
+          {
+            "title": "Client Side Scripting",
+            "description": "Course code: CSS-315306"
+          }
+        ]
+      },
+      "6": {
+        "subjects": [
+          {
+            "title": "Emerging Trends in CO and IT",
+            "description": "Course code: ETI-316301"
+          },
+          {
+            "title": "Management",
+            "description": "Course code: MAN-316302"
+          },
+          {
+            "title": "Software Engineering",
+            "description": "Course code: SE-316303"
+          },
+          {
+            "title": "Network and Information Security",
+            "description": "Course code: NIS-316002"
+          },
+          {
+            "title": "Capstone Project",
+            "description": "Course code: CPE-316001"
+          },
+          {
+            "title": "Artificial Intelligence",
+            "description": "Course code: AIN-316304"
+          },
+          {
+            "title": "Network and Information Security",
+            "description": "Course code: NIS-316305"
+          },
+          {
+            "title": "Web Based Application Development using PHP",
+            "description": "Course code: WBP-316306"
+          }
+        ]
+      }
+    }
+  }
+  

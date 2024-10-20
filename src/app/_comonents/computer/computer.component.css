@@ -1,0 +1,38 @@
+/* Adjust card width and height */
+.card {
+    min-height: 200px; /* Set a minimum height to prevent it from shrinking too much */
+    width: 100%;       /* Ensure the card takes full width of its column */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Align title and button */
+    padding: 20px; /* Add padding for a better appearance */
+    box-shadow: 10px 5px 100px black;
+    
+  }
+  
+  /* Adjust button margin */
+  .btn {
+    margin-top: auto; /* Push button to the bottom for uniform alignment */
+  }
+  
+  /* Optional: Add a hover effect */
+  .card:hover {
+    transform: translateY(-5px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  /* Make cards responsive for smaller screens */
+  @media (max-width: 576px) {
+    .card {
+      min-height: 150px; /* Decrease card height slightly for small screens */
+    }
+  
+    .card-body {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  }
+  
